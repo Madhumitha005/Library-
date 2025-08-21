@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Library Management System</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        .navbar {
+            background: linear-gradient(to right, #0d6efd, #3b82f6);
+        }
+        .navbar .nav-link {
+            color: white !important;
+            transition: color 0.3s;
+        }
+        .navbar .nav-link:hover {
+            color: #ffdd57 !important;
+        }
+        .navbar-brand {
+            color: #fff !important;
+            font-weight: bold;
+        }
+        footer {
+            background-color: #e9ecef;
+            padding: 20px 0;
+        }
+        .footer-links a {
+            color: #007bff;
+            text-decoration: none;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+        <div class="container">
+            <a class="navbar-brand" href="main.html">📚 Library</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>     
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="home.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+</header>
+<main class="container my-5">
+    <div class="text-center mb-5">
+        <h1 class="mb-4">Welcome to the Library </h1>
+        <p class="lead">Explore a wide collection of books, manage your borrowings, and stay updated on library events and achievements.</p>
+    </div>
+    <div class="row text-center">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">📖 Browse Books</h5>
+                    <p class="card-text">Access a wide range of academic and leisure reading materials anytime.</p>
+                    <a href="viewbooks.html" class="btn btn-outline-primary">View Books</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">👨‍🎓 Student Login</h5>
+                    <p class="card-text">Check your borrowed books, due dates, and fine details easily.</p>
+                    <a href="login.html" class="btn btn-outline-success">Login</a>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title">📅 Events & Achievements</h5>
+                    <p class="card-text">Know what's happening in the library and celebrate our milestones.</p>
+                    <a href="events.html" class="btn btn-outline-warning">Explore Events</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<footer class="text-center">
+    <div class="footer-container">
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="about.html">About Us</a> |
+                <a href="services.html">Services</a> |
+                <a href="privacy.html">Privacy Policy</a> |
+                <a href="terms.html">Terms of Service</a>
+            </div>
+        </div>
+    </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

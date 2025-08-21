@@ -1,0 +1,244 @@
+<style>
+        
+        h1 {
+            text-align: center;
+            color: rgb(0, 0, 251);
+        }
+        p {
+            text-align: center;
+        }
+        #text {
+            display: flex; /* Align items in a row */
+            justify-content: center; /* Center the links horizontally */
+            background-color: #051232; /* Optional: Background for the navigation */
+            padding: 10px 0; /* Add padding for aesthetics */
+        }
+        a {
+            padding: 10px;
+            text-decoration: none;
+            color:white; /* Link color */
+        }
+        a:hover {
+            text-decoration: underline; /* Add underline on hover */
+        }
+        .logo:hover {
+            width: 1050; /* Adjust as needed */
+            height: auto;
+            margin-right: 30px; /* Spacing between logo and heading */
+        }
+        .container{
+            display: flex;
+            align-items: center;
+            padding: 10px;
+        }
+        .heading {
+            font-size: 65px;/* Adjust font size as needed */
+            text-align: center; 
+            color: crimson;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        * {
+             box-sizing: border-box;
+             }
+          .slideshow-container {
+             position: relative;
+             max-width: 1000px;
+            margin: auto;
+        }
+
+.mySlides {
+    display:block;
+}
+
+img {
+ -ms-text-combine-horizontal: middle;
+}
+
+.fade {
+    animation: fade 1.5s ease-in-out infinite;
+}
+
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+        /* Mobile view */
+@media only screen and (max-width: 600px) {
+    body {
+        font-size: 14px;
+    }
+    /* Other styles for mobile */
+}
+
+/* Laptop/Desktop view */
+@media only screen and (min-width: 1024px) {
+    body {
+        font-size: 18px;
+    }
+    /* Other styles for larger screens */
+}
+/* General styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 1rem;
+}
+
+.navbar .logo {
+    color: white;
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin-left: 1.5rem;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.hamburger {
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburger span {
+    height: 3px;
+    width: 25px;
+    background-color: white;
+    margin: 4px 0;
+    transition: 0.4s;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .nav-links {
+        display: none;
+        position: absolute;
+        top: 60px;
+        right: 0;
+        background-color: #333;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .nav-links li {
+        margin: 1rem 0;
+    }
+
+    .hamburger {
+        display: flex;
+    }
+
+    .nav-links.show {
+        display: flex;
+    }
+}
+#homeContent {
+    display: none; /* Hidden by default */
+    margin-top: 20px;
+  }
+
+<!---footer style --->  
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    font-family: Arial, sans-serif;
+}
+.slideshow-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* Hide all slides initially */
+.img-slide img{
+    width:1000px;
+    height:500px;
+}
+
+/* Next and previous buttons styling */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.3s;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Position buttons on either side of the container */
+.prev {
+    left: 10px;
+    border-radius: 3px 0 0 3px;
+}
+.next {
+    right: 10px;
+    border-radius: 0 3px 3px 0;
+}
+footer {
+    text-align: center;
+    background-color: #0a0b0a;
+    color: white;
+    padding: 10px 0;
+  }
+  footer .social-icons {
+    margin: 10px 0;
+  }
+  footer .social-icons a {
+    text-decoration: none;
+    margin: 0 10px;
+    color: white;
+    font-size: 1.5rem;
+    display: inline-block;
+  }
+  footer .social-icons a:hover {
+    color: #007BFF;
+  }
+
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .footer-links {
+        justify-content: center;
+        margin-top: 15px;
+    }
+    .footer-social {
+        margin-top: 15px;
+    }
+}
+
+        
+</style>
